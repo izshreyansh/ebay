@@ -116,6 +116,12 @@ class Order extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerId'
+        ],
+        'salesRecordReference' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'salesRecordReference'
         ]
     ];
 
